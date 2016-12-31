@@ -25,7 +25,7 @@ class PostsController < ApplicationController
 
      end
 
-     def destroy
+      def destroy
 
         @post.destry
         flash[:alert] = "Post deleted"
